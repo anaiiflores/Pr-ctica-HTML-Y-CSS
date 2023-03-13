@@ -453,3 +453,577 @@ Codigo de la pagina principal.
 </html>
 
 
+Codigo del horario.
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Horario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="calendar_date_event_schedule_icon_127191.ico">
+    <style>
+        header {
+            padding: 15px;
+            text-align: center;
+            font-size: 2em;
+            color: black;
+            transition: color 0.5s ease-in-out;
+        }
+
+        header:hover {
+            color: rgb(241, 144, 220);
+
+        }
+
+
+        body {
+            background-image: url('btsfondo2.jpg');
+
+        }
+
+
+        table,
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        th,
+        td {
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+
+
+        .dies {
+            background-color: #AACAF9;
+        }
+
+
+
+        article {
+            float: left;
+            padding: 15px;
+            width: 100%;
+            height: 300px;
+
+
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+            height: 300PX;
+        }
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            color: black;
+            transition: color 0.5s ease-in-out;
+        }
+
+        footer:hover {
+            color: rgb(241, 144, 220);
+
+        }
+
+        table tr:nth-child(even) {
+            background-color: #e67af5;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Horario</h2>
+    </header>
+
+    <section>
+        <article>
+            <table class="tabla" style="width:100%">
+
+
+                <colgroup>
+                    <col span="1" style="background-color: pink">
+
+                </colgroup>
+
+                <tr>
+                    <th>HORA</th>
+                    <th class="dies">Escenario 1</th>
+                    <th class="dies">Escenario 2</th>
+                    <th class="dies">Escenario 3</th>
+                    <th class="dies">Escenario 4</th>
+                    <th class="dies">Escenario 5</th>
+
+                </tr>
+                <tr>
+                    <td>18:00</td>
+                    <td>Blue and Grey</td>
+                    <td>Boy with Luv</td>
+                    <td>Butter</td>
+                    <td>DNA</td>
+                    <td>Euphoria</td>
+
+                </tr>
+
+                </tr>
+                <tr>
+                    <td>19:00</td>
+                    <td>Fake Love</td>
+                    <td>I Need U</td>
+                    <td>Idol</td>
+                    <td>Make It Right</td>
+                    <td>Mic Drop</td>
+
+
+
+
+                </tr>
+                <tr>
+                    <td>20:00</td>
+                    <td>Not Today</td>
+                    <td>Life Goes On</td>
+                    <td>On</td>
+                    <td>Run</td>
+                    <td>Home</td>
+
+
+
+                </tr>
+
+                <tr>
+                    <td>21:00</td>
+                    <td>Yet to come</td>
+                    <td>Save Me</td>
+                    <td>Film Out</td>
+                    <td>Fire</td>
+                    <td>My Universe</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>22:00</td>
+                    <td>Lights</td>
+                    <td>Airplane</td>
+                    <td>A Brand New Day</td>
+                    <td>All Night</td>
+                    <td>Black Swan</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>23:00</td>
+                    <td>Epipphany</td>
+                    <td>Permission to Dance</td>
+                    <td>Serendipity</td>
+                    <td>Waste It on Me</td>
+                    <td>Savage Love</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>00:00</td>
+                    <td>Spring Day</td>
+                    <td>Bad Decisions</td>
+                    <td>Blood Sweat and Tears</td>
+                    <td>Dynamite</td>
+                    <td>Mikrokosmos</td>
+                </tr>
+            </table>
+
+        </article>
+    </section>
+
+    <footer>
+        <p>BTS</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+Codigo del formulario.
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-image: url('btsfondo.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            color: black;
+            transition: color 0.5s ease-in-out;
+        }
+
+        header:hover {
+            color: rgb(241, 144, 220);
+          
+        }
+
+
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 5px 4px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+
+        }
+
+
+
+        input[type=email],
+        select {
+            width: 100%;
+            padding: 5px 4px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+
+        }
+
+
+        input[type=date],
+        select {
+            width: 100%;
+            padding: 5px 4px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+
+        }
+
+
+
+
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #ca86f7;
+            color: white;
+            padding: 5px 4px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+
+        input[type=reset] {
+            width: 100%;
+            background-color: #ca86f7;
+            color: white;
+            padding: 5px 4px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #d47af8;
+        }
+
+        input[type=reset]:hover {
+            background-color: #d47af8;
+            transition: color 0.5s ease-in-out;
+        }
+
+         input[type=reset]:hover {
+            color: rgb(204, 10, 162);
+          
+        }
+
+
+
+
+
+
+
+        div {
+            border-radius: 5px;
+            background-color: #bd68ee;
+            padding: 20px;
+            align-content: center;
+            width: 50%;
+            margin-top: 30%;
+            margin-left: 24%;
+
+        }
+
+
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Formulario</h2>
+    </header>
+
+    <section>
+
+
+        <article>
+
+
+
+            <div>
+                <form action="Ya se ha enviado">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="nam" name="nombre" placeholder="Escribe tu nombre" required>
+
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="ape" name="apellido" placeholder="Escribe tu apellido" required>
+
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="nombre232@gmail.com" required>
+
+
+                    <label for="nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="nacimiento" name="nacimiento" required>
+
+
+
+                    <label for="pais">País</label>
+                    <select id="pais" name="pais">
+                        <option value="pais">Bolivia</option>
+                        <option value="pais">España</option>
+                        <option value="pais">Perú</option>
+                        <option value="pais">Alemania</option>
+                        <option value="pais">Italia</option>
+                        <option value="pais">Brasil</option>
+
+
+                    </select>
+
+                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="reset" name="refrescar" value="Reset">
+                </form>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>BTS</p>
+    </footer>
+
+</body>
+
+</html>
+
+</html>
+
+
+Codigo de los precios.
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-image: url('fondomoradoo.jpg');
+        }
+
+
+        header {
+            padding: 30px;
+            text-align: center;
+            font-size: 2em;
+            color: rgb(0, 0, 0);
+            transition: color 0.5s ease-in-out;
+        }
+
+        header:hover {
+            color: rgb(241, 144, 220);
+          
+        }
+
+
+
+
+
+        /* inicio galeria imagenes */
+
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #883bec;
+        }
+
+        div.gallery img {
+            width: 100%;
+
+            height: 400px;
+
+            object-fit: cover;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+      
+        .imagenesgal {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            color: black;
+            transition: color 0.5s ease-in-out;
+        }
+
+        footer:hover {
+            color: rgb(241, 144, 220);
+          
+        }
+        
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h2>Precios</h2>
+    </header>
+
+
+    <div class="imagenesga">
+
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="escenarioo.jpg" alt="concert">
+                
+                <div class="desc"> Escenario 3: 415135€</div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="bts9.png" alt="concert">
+                
+                <div class="desc"> Escenario 1 y 4: 265464€</div>
+            </div>
+        </div>
+
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="bts4.png" alt="concert">
+                
+                <div class="desc"> Escenario 5: 541511€</div>
+            </div>
+        </div>
+
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="bts6.png" alt="concert">
+                
+                <div class="desc">Escenario 2: 5416168€</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+   
+
+    <footer>
+        <p>BTS</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
